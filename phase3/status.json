@@ -1,6 +1,6 @@
 {
   "ver": "3.1",
-  "ts": "2025-08-19T18:41:37.675210+09:00",
+  "ts": "2025-08-19T09:43:24.163708+00:00",
   "phase": "3.1",
   "window": "5m",
   "kpi": {
@@ -13,11 +13,49 @@
     "loss_rate_pct": 0.0
   },
   "status": "OK",
-  "notes": "stable",
+  "notes": "enhanced",
+  "enhanced_version": "3.2",
+  "escalation_status": {
+    "consecutive_threshold": 3,
+    "current_counts": {},
+    "reset_timeout_minutes": 5
+  },
+  "maintenance_status": {
+    "is_maintenance_time": false,
+    "active_window": null,
+    "configured_windows": [
+      {
+        "start_time": "02:00",
+        "end_time": "04:00",
+        "description": "定期メンテナンス時間帯",
+        "enabled": true
+      }
+    ]
+  },
+  "alert_history_stats": {
+    "total_alerts_24h": 0,
+    "total_alerts_1h": 0,
+    "alerts_by_type_24h": {
+      "sync_rate_low": 0,
+      "phase_error_high": 0,
+      "latency_high": 0,
+      "connection_loss": 0,
+      "memory_leak": 0,
+      "integrity_violation": 0
+    },
+    "alerts_by_level_24h": {
+      "info": 0,
+      "warning": 0,
+      "critical": 0,
+      "emergency": 0
+    },
+    "retention_hours": 48,
+    "history_size": 0
+  },
   "sig": {
     "alg": "Ed25519",
-    "pub": "phase3_public_key",
-    "jcs_sha256": "9b379793f1a9f2fe48da2e37d177fd943a9586d2ada5293c6707d0f5df2892c8",
-    "sig": "987fc06556be9c9f0912207118ac400dbb5567881e552f35323fd80560fef2732789f539ba2e5895c227d6b28ed5e84083b23ae765f8300576d57028091bc60d"
+    "pub": "phase3_enhanced_public_key",
+    "jcs_sha256": "89ac12191e464f09cee5c551cfb03ab6d8ae09aa0bfaefb2b790b4a5198884b9",
+    "sig": "4fd17c9cc0b5662f10a5cd4e3bb210c2c36e2e3f32e13e099e4fc05c718ca88fbaeb57bb0214f3f81d2ab8a1e0142c0858bc368eab6b493d1c16e43ccf32c609"
   }
 }
