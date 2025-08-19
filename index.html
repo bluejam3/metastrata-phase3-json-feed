@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phase 3.1 JSONフィード</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; background: #f8f9fa; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .endpoint { margin: 20px 0; padding: 15px; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .status { color: #28a745; font-weight: bold; margin-top: 20px; }
+        a { color: #007bff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌟 Null-Λ00 Phase 3.1 JSONフィード</h1>
+        
+        <div class="endpoint">
+            <h3>📊 Status JSON</h3>
+            <p><a href="phase3/status.json">phase3/status.json</a></p>
+            <p>最新KPI・同期率・レイテンシ情報（5分間隔更新）</p>
+        </div>
+        
+        <div class="endpoint">
+            <h3>🚨 Alerts JSON</h3>
+            <p><a href="phase3/alerts.json">phase3/alerts.json</a></p>
+            <p>直近100件のアラート履歴（リングバッファ）</p>
+        </div>
+        
+        <div class="endpoint">
+            <h3>📋 Meta JSON</h3>
+            <p><a href="phase3/meta.json">phase3/meta.json</a></p>
+            <p>フィードメタデータ・更新情報・署名</p>
+        </div>
+        
+        <div class="status">
+            ✅ GitHub Pages配信中 | プロデューサー: cursor-Lumi | 更新間隔: 5分
+        </div>
+    </div>
+</body>
+</html>
