@@ -1,0 +1,17 @@
+{
+  "ver": "3.1",
+  "ts": "2025-08-19T10:57:37.319962+09:00",
+  "phase": "3.1",
+  "window": "5m",
+  "kpi": {
+    "sync_rate_pct": 99.99,
+    "phase_error_rad": 0.0012,
+    "p99_ms": 210,
+    "rss_mb": 38.4,
+    "cache_delta_pct": 2.1,
+    "error_rate_pct": 0.0,
+    "loss_rate_pct": 0.0
+  },
+  "status": "OK",
+  "notes": "stable"
+}
