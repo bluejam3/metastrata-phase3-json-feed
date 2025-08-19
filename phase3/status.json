@@ -1,6 +1,6 @@
 {
   "ver": "3.1",
-  "ts": "2025-08-19T17:00:44.601648+09:00",
+  "ts": "2025-08-19T17:10:50.297371+09:00",
   "phase": "3.1",
   "window": "5m",
   "kpi": {
@@ -17,7 +17,7 @@
   "sig": {
     "alg": "Ed25519",
     "pub": "phase3_public_key",
-    "jcs_sha256": "81fbe323a3b28d4e2bfd4b4688616075c939a0cffd2a58d3562e38d0ea85a172",
-    "sig": "5e943d9161fb70844d14e5963cbf84f28e3b116f7584310ad6b52168ca051c2dfcb98f37ae00ee01729c811170bbcbca43dec2691153eb5e14e51a4e702b7f01"
+    "jcs_sha256": "375d4c0f454223276177bdce47a46c75d97ba8d213c4d4210a36c73791a72cf9",
+    "sig": "1eaa8bd234fbb42b6d5f10735f0150500a3663e7684c23caeef0f1904e60f11c70b19476fbff52dd561c8c2e483fc9e09b2cf133d6d27123f3af328ad73d530b"
   }
 }
