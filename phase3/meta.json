@@ -1,23 +1,10 @@
 {
-  "version": "3.1",
-  "description": "Phase 3.1 Test Progress & Alerts (Enhanced)",
-  "latest_update": "2025-08-19T13:45:00.645950+00:00",
-  "update_interval_sec": 300,
-  "endpoints": {
-    "status": "./status.json",
-    "alerts": "./alerts.json"
+  "producer": "cursor-Lumi",
+  "schema": {
+    "status": "https://schema.null-lambda/phase3/status.json#",
+    "alerts": "https://schema.null-lambda/phase3/alerts.json#"
   },
-  "specification": "Phase3_Public_JSON_Feed_Instructions_Enhanced",
-  "generator": "Cursor-Lumi Enhanced AutoUpdater",
-  "alert_retention_hours": 48,
-  "escalation_threshold": 3,
-  "maintenance_windows": [
-    {
-      "start_time": "02:00",
-      "end_time": "04:00",
-      "description": "定期メンテナンス時間帯",
-      "enabled": true
-    }
-  ],
-  "enhanced_monitoring": true
+  "latest_update": "2025-08-22T11:36:09.705838+09:00",
+  "ttl_s": 120,
+  "commit": "phase3.1-build-001"
 }

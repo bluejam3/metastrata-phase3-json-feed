@@ -1,6 +1,6 @@
 {
   "ver": "3.1",
-  "ts": "2025-08-19T13:45:00.644139+00:00",
+  "ts": "2025-08-22T11:36:09.705735+09:00",
   "phase": "3.1",
   "window": "5m",
   "kpi": {
@@ -13,49 +13,11 @@
     "loss_rate_pct": 0.0
   },
   "status": "OK",
-  "notes": "enhanced",
-  "enhanced_version": "3.2",
-  "escalation_status": {
-    "consecutive_threshold": 3,
-    "current_counts": {},
-    "reset_timeout_minutes": 5
-  },
-  "maintenance_status": {
-    "is_maintenance_time": false,
-    "active_window": null,
-    "configured_windows": [
-      {
-        "start_time": "02:00",
-        "end_time": "04:00",
-        "description": "定期メンテナンス時間帯",
-        "enabled": true
-      }
-    ]
-  },
-  "alert_history_stats": {
-    "total_alerts_24h": 0,
-    "total_alerts_1h": 0,
-    "alerts_by_type_24h": {
-      "sync_rate_low": 0,
-      "phase_error_high": 0,
-      "latency_high": 0,
-      "connection_loss": 0,
-      "memory_leak": 0,
-      "integrity_violation": 0
-    },
-    "alerts_by_level_24h": {
-      "info": 0,
-      "warning": 0,
-      "critical": 0,
-      "emergency": 0
-    },
-    "retention_hours": 48,
-    "history_size": 0
-  },
+  "notes": "stable",
   "sig": {
     "alg": "Ed25519",
-    "pub": "phase3_enhanced_public_key",
-    "jcs_sha256": "37c619751cb9357090c181e2b687f8c069e323377a4289cb2d69784d4e9026d0",
-    "sig": "8666c77b2fd6690d63a4e15a038c05083f4c1b97636e3e7296ef26deabe4d496c79c084f77948b23402cb97a6d4d3f673cb9bd82a87a5ae1c5e9f46a15aab900"
+    "pub": "phase3_public_key",
+    "jcs_sha256": "83c12318114200ead956afcc7847f1bb24f9c65dfbd190e9c7b2b46f74bf7d9f",
+    "sig": "mock-ed25519-ae96f3ec0813e26b"
   }
 }
